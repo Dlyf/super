@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #34495e;
+}
+
+h1{
+  text-align: center;
+  color: #fff;
+}
+
+i {
+  color: #d35400;
+}
+
+ul {
+  text-align: center;
+}
+
+ul li {
+  display: inline;
+  text-align: center;
+  margin-right: 20px;
+  padding: 5px;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  border: 1px solid white;
+  color: #fff;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 13px;
+  color: black;
+}
+
+.main-title {
+  width: 100%;
+  float: right;
+}
+.img-text {
+  width: 30%;
+  float: left;
+}
+.description-text {
+
+  width: 50%;
+  float: left;
+}
+
+.description-text {
+  margin-left: 100px;
+  width: 50%;
+  font-size: 9px;
+}
+
+.photo-1 {
+  background: url("../img/img1.jpg") no-repeat;
+  display: inline-block;
+  width: 20%;
+  height: 160px;
+
+  -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+
+}
+
+.photo-2 {
+  background: url("../img/img2.jpg") no-repeat;
+  display: inline-block;
+  width: 20%;
+  height: 160px;
+
+  -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+
+}
+
+.photo-3 {
+  background: url("../img/img3.jpg") no-repeat;
+  display: inline-block;
+  width: 20%;
+  height: 160px;
+
+  -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+
+}
+
+.photo-4 {
+  background: url("../img/img4.jpg") no-repeat;
+  display: inline-block;
+  width: 20%;
+  height: 160px;
+
+  -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+
+}

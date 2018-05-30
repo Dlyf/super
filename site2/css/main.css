@@ -1,0 +1,36 @@
+body {
+  background-color: #A48105;
+}
+
+form.form-inline {
+  background-color: #FECC00;
+}
+
+nav {
+  background-color: #FECC00;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+img.logo_cine {
+  height: 70px;
+  width: 15%;
+}
+
+div.card-body {
+  background-color: #A48105;
+}
+
+footer {
+  text-align: center;
+  background-color: #F0C21F;
+}
