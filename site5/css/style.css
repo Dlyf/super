@@ -1,0 +1,28 @@
+body {
+  background-color: grey;
+}
+
+#wrapper {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.clear {
+  clear: both;
+}
+
+.center {
+  text-align: center;
+}
+
+.square {
+  margin: 0 auto;
+  width: 300px;
+  height: 300px;
+
+}
+
+.square1 {
+  background: #fff;
+  
+}

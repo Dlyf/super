@@ -1,0 +1,59 @@
+body {
+  background-color: #bdc3c7;
+}
+
+i {
+  font-size: 200px;
+  text-align: center;
+}
+
+i.fas.fa-cut {
+    background-color: red;
+}
+
+i.fas.fa-cut:hover,
+i.fas.fa-cut:active {
+    background-color: #fff;
+    cursor: pointer;
+}
+.circle-icon {
+    background: #ffc0c0;
+    padding:50px;
+    border-radius: 50%;
+}
+/* .circle-icon2 {
+    background: #ffc0c0;
+    padding:50px;
+    border-radius: 50%;
+}
+.circle-icon3 {
+    background: #ffc0c0;
+    padding:50px;
+    border-radius: 50%;
+} */
+
+i.fas.fa-paper-plane {
+    background-color: red;
+}
+
+i.fas.fa-paper-plane:hover,
+i.fas.fa-paper-plane:active {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+i.fas.fa-hand-rock {
+    background-color: red;
+}
+
+i.fas.fa-hand-rock:hover,
+i.fas.fa-hand-rock:active {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.userScore {
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+}

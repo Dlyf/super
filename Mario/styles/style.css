@@ -1,0 +1,45 @@
+#container {
+    margin: 100px auto;
+    width: 750px;
+    padding-bottom: 100px;
+    overflow-x: hidden;
+}
+
+#mario {
+    display: block;
+    margin-top: -58px;
+}
+
+#coin1, #coin2, #coin3 {
+    position: absolute;
+    top: 280px;
+    left: 500px;
+}
+
+#coin1 {
+    left: 500px;
+}
+
+#coin2 {
+    left: 550px;
+}
+
+#coin3 {
+    left: 600px;
+}
+
+.flip {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.fail {
+    position: absolute;
+    top: 50px;
+    left: 700px;
+    font-size: 50px;
+    font-family: Tahoma;
+    display: none;
+}
